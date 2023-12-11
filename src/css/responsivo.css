@@ -7,3 +7,21 @@
       --bg-url: url(/src/assets/bg-desktop-light.jpg);
   }
 }
+
+@keyframes slider-in{
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slider-out{
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
