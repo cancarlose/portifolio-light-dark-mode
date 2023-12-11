@@ -1,14 +1,16 @@
 function toggleMode() {
+  // accesso documentElement (HTML tag)
   const html = document.documentElement
+  // troca da class 'light'
   html.classList.toggle("light")
-  
-  // pegar a tag img
+   
+  // accesso img tag com id 'profile'
   const img = document.querySelector("#profile img")
-  
-  // subistituir imagem
+   
+  // atualização img src attribute baseado na class
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./src/assets/profile-light.png")
+     img.setAttribute("src", "./src/assets/profile-light.png")
   } else {
-    img.setAttribute("src", "./src/assets/profile.png")
+     img.setAttribute("src", "./src/assets/profile.png")
   }
-}
+ }
