@@ -7,7 +7,7 @@ function toggleMode() {
   // accesso img tag com id 'profile'
   const img = document.querySelector("#profile img")
    
-  // atualização img src attribute baseado na class
+  // atualização img src attribute baseado na classe
   if (html.classList.contains("light")) {
      img.setAttribute("src", "./src/assets/profile-light.png")
   } else {
