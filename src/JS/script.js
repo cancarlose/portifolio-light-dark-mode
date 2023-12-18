@@ -14,3 +14,4 @@ function toggleMode() {
      img.setAttribute("src", "./src/assets/profile.png")
   }
  }
+ // Fim do Código
